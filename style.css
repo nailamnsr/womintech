@@ -5,12 +5,7 @@
     font-family: 'poppins',sans-serif;
     
     }
-    .background{
-        margin: 0;
-        padding: 0;
-        background-image: url('C:\Users\ELITEBOOK 845 G7\OneDrive\Documents\doc\pink-yellow-plain.jpg'); 
-        background-size: cover; 
-    }
+    
     header  {
         display: flex;
         justify-content: space-between;
@@ -24,11 +19,17 @@
         
     footer{ background-color: #eebee0bd; /* Change the background color as needed */
         color: white;
+        
+      
         text-align: center;
         padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 
   
-}
+
     .name{
         font-family: 'Arial', sans-serif;
         background-color: #ffffff;
@@ -83,7 +84,7 @@
                 margin-left: 70%;
             }
 .feature-img { 
-    width: 530px;
+    width: 400px;
     position: absolute;
     bottom: 0;
     right: 10%;
@@ -97,11 +98,33 @@
     text-align: center;
 }
 
-.image-caption {
-    color: #333; 
-    margin-top: 0%;
-    margin-left: 45%;
-    margin-bottom: 90px;
+
+footer img.footer-logo {
+    width: 40px; 
+    height: auto; 
+    margin-right: 650px; 
+}
+footer p {
+    margin-left: 600px; 
+}
+.section-with-logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /
 }
 
-            
+.small-logo {
+    width: 30px; 
+    height: auto; 
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.section-content {
+    flex: 1;
+    flex-direction: column;
+    
+}
+section-content p {
+    margin: 0;
+}
